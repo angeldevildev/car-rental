@@ -66,7 +66,7 @@ function Navbar() {
             </li>
             <li>
               <a className="about-link" to="/">
-                About us
+                About 
               </a>
             </li>
             <li>
