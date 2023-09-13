@@ -1,19 +1,19 @@
-# Car Rental Project
+# Car Rental Project 🚗
 
 Welcome to the Car Rental project! This repository contains the source code for a car rental website with a navbar that includes the following sections:
 
-- [Home](#home)
-- [About](#about)
-- [Models](#models)
-- [Testimonials](#testimonials)
-- [Our Team](#our-team)
-- [Contact](#contact)
+- [Home](#home) 🏠
+- [About](#about) ℹ️
+- [Models](#models) 🚙
+- [Testimonials](#testimonials) 👏
+- [Our Team](#our-team) 👥
+- [Contact](#contact) 📞
 
-## Project Description
+## Project Description 📝
 
 Our project is a car rental website that offers a wide range of vehicles, services, and useful information to customers. Each section of the navbar plays a specific role in providing a comprehensive and engaging user experience.
 
-## How to Use the Project
+## How to Use the Project 🛠️
 
 To use the project, follow these simple steps:
 
