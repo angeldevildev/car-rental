@@ -17,11 +17,9 @@ Our project is a car rental website that offers a wide range of vehicles, servic
 
 To use the project, follow these simple steps:
 
+
+
 1. **Clone the Repository**: You can clone this repository to your computer using the Git command:
-
-```bash
-git clone https://github.com/angeldevildev/car-rental.git
-
 
 2. **Open the Website**: Once you've cloned the repository, open the `index.html` file in your preferred browser to access the car rental website.
 
@@ -40,3 +38,6 @@ This project is distributed under the [MIT License](LICENSE).
 ---
 
 Thank you for your interest in the Car Rental project! We hope you find it useful. If you have any questions or suggestions, please don't hesitate to contact us. Happy coding!
+
+```bash
+   git clone https://github.com/angeldevildev/car-rental.git
