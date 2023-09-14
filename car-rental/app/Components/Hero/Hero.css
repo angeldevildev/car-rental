@@ -1,0 +1,159 @@
+.hero-section {
+    width: 100%;
+    height: 97vh;
+    background-color: #f8f8f8;
+    position: relative;
+  }
+
+  #home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bg-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .car-img {
+    margin-top: 5rem;
+    position: absolute;
+    right: 0;
+    width: 65% !important;
+    z-index: 2;
+  }
+  
+  @media (max-width: 800px) {
+    .bg-shape {
+      display: none;
+    }
+  }
+  
+  .hero-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  @media (max-width: 800px) {
+    .hero-content {
+      justify-content: center;
+    }
+  }
+  
+  .hero-content__text {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    max-width: 50rem;
+    margin-top: 5rem;
+  }
+  
+  @media (max-width: 800px) {
+    .hero-content__text {
+      text-align: center;
+      align-items: center;
+    }
+  }
+  
+  .hero-content__text h4 {
+    font-size: 2.2rem;
+    font-family: "Poppins", sans-serif;
+    color: #010103;
+    font-weight: 700;
+  }
+  
+  .hero-content__text h1 {
+    font-size: 5.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #010103;
+    line-height: 1.2;
+    margin-top: 1rem;
+    margin-bottom: 2.3rem;
+  }
+  
+  .hero-content__text h1 span {
+    color: #ff4d30;
+  }
+  
+  .hero-content__text p {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    color: #706f7b;
+    margin-bottom: 4rem;
+  }
+  
+  .hero-content__text__btns {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @media (max-width: 450px) {
+    .hero-content__text__btns {
+      flex-direction: column;
+    }
+  }
+  
+  .hero-content__text__btns a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content__text__btns__book-ride {
+    background-color: #ff4d30;
+    padding: 1.8rem 3rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+    transition: all 0.3s;
+    border: 2px solid #ff4d30;
+  }
+  
+  @media (max-width: 450px) {
+    .hero-content__text__btns__book-ride {
+      padding: 1.8rem 8rem;
+    }
+  }
+  
+  .hero-content__text__btns__book-ride:hover {
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
+    background-color: #fa4226;
+  }
+  
+  .hero-content__text__btns__learn-more {
+    background-color: #010103;
+    padding: 1.8rem 3rem;
+    border-radius: 0.3rem;
+    border: 2px solid #010103;
+    transition: all 0.3s;
+  }
+  
+  .hero-content__text__btns__learn-more:hover {
+    background-color: transparent;
+    color: #010103;
+  }
+  
+  .hero-content__car-img {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    width: 65%;
+    margin-top: 5rem;
+  }
+  
+  @media (max-width: 800px) {
+    .hero-content__car-img {
+      display: none;
+    }
+  }

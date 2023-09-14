@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import "./Navbar.css";
+import logo from './logo.png'
+import Image from 'next/image';
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -57,7 +59,14 @@ function Navbar() {
         {/* desktop */}
 
         <div className="navbar">
-          <div className="navbar__img"></div>
+          <div className="navbar__img">
+          <a href="/" onClick={() => window.scrollTo(0, 0)}>
+              <Image 
+                src={logo}
+                alt='logo-img'
+              />
+            </a>
+          </div>
           <ul className="navbar__links">
             <li>
               <a className="home-link" to="/">
