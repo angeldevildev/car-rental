@@ -38,7 +38,7 @@ function Hero() {
     <>
       <section id="home" className="hero-section">
         <div className="container">
-          <Image className="bg-shape" src={BgShape} alt="bg-shape" />
+          <Image className="bg-shape" src={BgShape} alt="bg-shape" loading="lazy"/>
           <div className="hero-content">
             <div className="hero-content__text">
               <h4>Plan your trip now</h4>
@@ -68,6 +68,7 @@ function Hero() {
               src={HeroCar}
               alt="car-img"
               className="hero-content__car-img"
+              loading="lazy"
             />
           </div>
         </div>

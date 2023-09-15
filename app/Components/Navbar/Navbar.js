@@ -64,6 +64,7 @@ function Navbar() {
               <Image 
                 src={logo}
                 alt='logo-img'
+                loading='lazy'
               />
             </a>
           </div>
