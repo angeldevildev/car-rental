@@ -52,4 +52,8 @@ Thank you for choosing our car rental website. We hope you have an exceptional e
 
 ### Demo 💼
 
-[Demo](https://car-rental-henna-six.vercel.app/)
+Explore our car rental website by visiting our live demo! Click the link below to experience firsthand the features and functionality of our site:
+
+[**Demo**](https://car-rental-henna-six.vercel.app/)
+
+Take a virtual tour, browse our vehicle models, learn about our team, and discover how easy it is to rent a car with us. Whether you're a potential customer or just curious, our demo allows you to interact with our site before making any commitments. Enjoy your virtual visit! 🚗💨
