@@ -1,43 +1,34 @@
-# Car Rental Project 🚗
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Welcome to the Car Rental project! This repository contains the source code for a car rental website with a navbar that includes the following sections:
+## Getting Started
 
-- [Home](#home) 🏠
-- [About](#about) ℹ️
-- [Models](#models) 🚙
-- [Testimonials](#testimonials) 👏
-- [Our Team](#our-team) 👥
-- [Contact](#contact) 📞
-
-## Project Description 📝
-
-Our project is a car rental website that offers a wide range of vehicles, services, and useful information to customers. Each section of the navbar plays a specific role in providing a comprehensive and engaging user experience.
-
-## How to Use the Project 🛠️
-
-To use the project, follow these simple steps:
-
-
-
-1. **Clone the Repository**: You can clone this repository to your computer using the Git command:
-
-2. **Open the Website**: Once you've cloned the repository, open the `index.html` file in your preferred browser to access the car rental website.
-
-3. **Navigate Through the Sections**: Use the navbar at the top of the site to access different sections, including [Home](#home), [About](#about), [Models](#models), [Testimonials](#testimonials), [Our Team](#our-team), and [Contact](#contact).
-
-4. **Explore the Content**: Explore the site to find detailed information about available car models, read customer testimonials, learn about our team, and find contact information.
-
-## Issues and Suggestions
-
-If you encounter issues or have suggestions to improve the project, please report them in the "Issues" section of this GitHub repository. We would be happy to collaborate with you to resolve issues or implement new features.
-
-## License
-
-This project is distributed under the [MIT License](LICENSE).
-
----
-
-Thank you for your interest in the Car Rental project! We hope you find it useful. If you have any questions or suggestions, please don't hesitate to contact us. Happy coding!
+First, run the development server:
 
 ```bash
-   git clone https://github.com/angeldevildev/car-rental.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
