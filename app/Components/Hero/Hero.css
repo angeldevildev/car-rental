@@ -23,6 +23,7 @@
     position: absolute;
     right: 0;
     width: 65% !important;
+    height: auto;
     z-index: 2;
   }
   
