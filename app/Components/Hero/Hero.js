@@ -54,6 +54,7 @@ function Hero() {
                 <a
                     onClick={bookBtn}
                     className="hero-content__text__btns__book-ride"
+                    href="#booking-section"
                 >
                   Book Ride &nbsp; <IconCircleCheck />
                 </a>
