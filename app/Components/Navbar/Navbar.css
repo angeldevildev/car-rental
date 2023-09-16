@@ -223,3 +223,8 @@
     left: 0;
   }
   
+  @media (max-width: 290px) {
+    .logo-navbar {
+      display: none;
+    }
+  }

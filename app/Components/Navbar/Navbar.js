@@ -65,6 +65,7 @@ function Navbar() {
                 src={logo}
                 alt='logo-img'
                 loading='lazy'
+                className='logo-navbar'
               />
             </a>
           </div>

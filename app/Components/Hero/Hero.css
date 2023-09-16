@@ -95,6 +95,7 @@
     gap: 2rem;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
   }
   
   @media (max-width: 450px) {
@@ -148,12 +149,37 @@
     z-index: 2;
     position: absolute;
     right: 0;
-    width: 65%;
+    width: 50%;
     margin-top: 5rem;
   }
+
+  
   
   @media (max-width: 800px) {
     .hero-content__car-img {
       display: none;
     }
+  }
+
+  .scroll-up {
+    position: fixed;
+    font-size: 2.5rem;
+    color: white;
+    background-color: #ff4d30;
+    border: 3px solid white;
+    width: 2rem;
+    height: 2rem;
+    bottom: 5rem;
+    right: 5rem;
+    z-index: 20;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    cursor: pointer;
+  }
+  
+  .show-scroll {
+    display: flex;
   }

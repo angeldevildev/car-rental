@@ -41,6 +41,7 @@ function Hero() {
           <Image className="bg-shape" src={BgShape} alt="bg-shape" loading="lazy"/>
           <div className="hero-content">
             <div className="hero-content__text">
+              
               <h4>Plan your trip now</h4>
               <h1>
                 Save <span>big</span> with our car rental
@@ -53,13 +54,13 @@ function Hero() {
                 <a
                     onClick={bookBtn}
                     className="hero-content__text__btns__book-ride"
-                    href="/"
                 >
                   Book Ride &nbsp; <IconCircleCheck />
                 </a>
                 <a className="hero-content__text__btns__learn-more" href="/">
                   Learn More &nbsp; <IconChevronRight />
                 </a>
+                
               </div>
             </div>
 
