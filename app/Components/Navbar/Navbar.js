@@ -24,32 +24,32 @@ function Navbar() {
           </div>
           <ul className="mobile-navbar__links">
             <li>
-              <a onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 Home
               </a>
             </li>
             <li>
-              <a onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 About
               </a>
             </li>
             <li>
-              <a onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 Models
               </a>
             </li>
             <li>
-              <a onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 Testimonials
               </a>
             </li>
             <li>
-              <a onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 Our Team
               </a>
             </li>
             <li>
-              <a onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 Contact
               </a>
             </li>
@@ -70,41 +70,41 @@ function Navbar() {
           </div>
           <ul className="navbar__links">
             <li>
-              <a className="home-link" to="/">
+              <a className="home-link" href="/">
                 Home
               </a>
             </li>
             <li>
-              <a className="about-link" to="/">
+              <a className="about-link" href="/">
                 About 
               </a>
             </li>
             <li>
-              <a className="models-link" to="/">
+              <a className="models-link" href="/">
                 Vehicle Models
               </a>
             </li>
             <li>
-              <a className="testi-link" to="/">
+              <a className="testi-link" href="/">
                 Testimonials
               </a>
             </li>
             <li>
-              <a className="team-link" to="/">
+              <a className="team-link" href="/">
                 Our Team
               </a>
             </li>
             <li>
-              <a className="contact-link" to="/">
+              <a className="contact-link" href="/">
                 Contact
               </a>
             </li>
           </ul>
           <div className="navbar__buttons">
-            <a className="navbar__buttons__sign-in" to="/">
+            <a className="navbar__buttons__sign-in" href="/">
               Sign In
             </a>
-            <a className="navbar__buttons__register" to="/">
+            <a className="navbar__buttons__register" href="/">
               Register
             </a>
           </div>
