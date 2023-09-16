@@ -1,6 +1,6 @@
 'use client'
 
-import BgShape from "./hero-bg.png";
+import BgShape from "./hero-bg.webp";
 import HeroCar from "./main-car.webp";
 import { useEffect, useState } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
