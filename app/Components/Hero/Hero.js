@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
 import BgShape from "./hero-bg.svg";
 import HeroCar from "./main-car.png";
 import { useEffect, useState } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 import Image from "next/image";
-import './Hero.css';
+import "./Hero.css";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
@@ -38,10 +38,14 @@ function Hero() {
     <>
       <section id="home" className="hero-section">
         <div className="container">
-          <Image className="bg-shape" src={BgShape} alt="bg-shape" loading="lazy"/>
+          <Image
+            className="bg-shape"
+            src={BgShape}
+            alt="bg-shape"
+            loading="lazy"
+          />
           <div className="hero-content">
             <div className="hero-content__text">
-              
               <h4>Plan your trip now</h4>
               <h1>
                 Save <span>big</span> with our car rental
@@ -52,16 +56,15 @@ function Hero() {
               </p>
               <div className="hero-content__text__btns">
                 <a
-                    onClick={bookBtn}
-                    className="hero-content__text__btns__book-ride"
-                    href="#booking-section"
+                  onClick={bookBtn}
+                  className="hero-content__text__btns__book-ride"
+                  href="#booking-section"
                 >
                   Book Ride &nbsp; <IconCircleCheck />
                 </a>
                 <a className="hero-content__text__btns__learn-more" href="/">
                   Learn More &nbsp; <IconChevronRight />
                 </a>
-                
               </div>
             </div>
 

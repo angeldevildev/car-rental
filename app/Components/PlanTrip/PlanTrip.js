@@ -2,7 +2,7 @@ import SelectCar from "./icon1.svg";
 import Contact from "./icon2.svg";
 import Drive from "./icon3.svg";
 import Image from "next/image";
-import './PlanTrip.css'
+import "./PlanTrip.css";
 
 function PlanTrip() {
   return (
@@ -38,12 +38,10 @@ function PlanTrip() {
                 <Image src={Drive} alt="icon_img" />
                 <h3>{`Let's Drive`}</h3>
                 <p>
-                {
-                `
+                  {`
                   Whether you're hitting the open road, we've got you covered
                   with our wide range of cars
-                `
-                }
+                `}
                 </p>
               </div>
             </div>

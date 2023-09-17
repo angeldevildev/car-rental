@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useEffect, useState } from "react";
 import CarAudi from "../images/audia1.jpg";
@@ -10,7 +10,7 @@ import CarPassat from "../images/passatcc.jpg";
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
-import './BookCar.css'
+import "./BookCar.css";
 import Image from "next/image";
 
 function BookCar() {

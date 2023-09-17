@@ -1,6 +1,5 @@
 "use client";
 
-import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import "./Navbar.css";
