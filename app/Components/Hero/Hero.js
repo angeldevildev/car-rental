@@ -1,6 +1,6 @@
 'use client'
 
-import BgShape from "./hero-bg.png";
+import BgShape from "./hero-bg.svg";
 import HeroCar from "./main-car.png";
 import { useEffect, useState } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
