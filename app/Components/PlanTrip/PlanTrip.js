@@ -12,7 +12,7 @@ function PlanTrip() {
           <div className="plan-container">
             <div className="plan-container__title">
               <h3>Plan your trip now</h3>
-              <h2>Quick & easy car rental</h2>
+              <h2>Quick &amp; easy car rental</h2>
             </div>
 
             <div className="plan-container__boxes">
@@ -20,7 +20,7 @@ function PlanTrip() {
                 <Image src={SelectCar} alt="icon_img" />
                 <h3>Select Car</h3>
                 <p>
-                  We offers a big range of vehicles for all your driving needs.
+                  We offer a big range of vehicles for all your driving needs.
                   We have the perfect car to meet your needs
                 </p>
               </div>
