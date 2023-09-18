@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, memo } from "react";
 import CarAudi from "../images/audia1.jpg";
 import CarGolf from "../images/golf6.jpg";
 import CarToyota from "../images/toyotacamry.jpg";
@@ -468,4 +468,4 @@ function BookCar() {
   );
 }
 
-export default BookCar;
+export default memo(BookCar);

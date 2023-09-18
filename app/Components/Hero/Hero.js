@@ -2,7 +2,7 @@
 
 import BgShape from "./hero-bg.svg";
 import HeroCar from "./main-car.png";
-import { useEffect, useState } from "react";
+import { useEffect, useState, memo } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 import Image from "next/image";
 import "./Hero.css";
@@ -90,4 +90,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default memo(Hero);

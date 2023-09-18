@@ -1,0 +1,212 @@
+
+.pick-section {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pick-car {
+    margin-left: -10%;
+  }
+  
+  .pick-container__title {
+    margin: 0 auto;
+    text-align: center;
+    color: #010103;
+    max-width: 50rem;
+    margin-bottom: 5rem;
+  }
+  
+  .pick-container__title p {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    color: #706f7b;
+    line-height: 1.5;
+  }
+  
+  .pick-container__title h3 {
+    font-size: 2.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  .pick-container__title h2 {
+    font-size: 4.2rem;
+    font-family: "Poppins", sans-serif;
+    margin: 0.5rem 0 1rem 0;
+    font-weight: bold;
+  }
+  
+  .pick-container__car-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  @media (max-width: 1050px) {
+    .pick-container__car-content {
+      flex-direction: column;
+      gap: 5rem;
+    }
+  }
+  
+  .pick-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .pick-box button {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem 2.5rem;
+    background-color: #e9e9e9;
+    transition: all 0.2s;
+    text-align: left;
+  }
+  
+  .pick-box button:hover {
+    background-color: #ff4d30;
+    color: white;
+  }
+  
+  .pick-car {
+    width: 50rem;
+    position: relative;
+  }
+  
+  @media (max-width: 700px) {
+    .pick-car {
+      width: 100%;
+    }
+  }
+  
+  .pick-car img {
+    width: 100%;
+    margin-top: 6rem;
+  }
+  
+  .pick-description {
+    width: 25rem;
+  }
+  
+  .pick-description__price {
+    width: 100%;
+    background-color: #ff4d30;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+    padding: 0.3rem 1.9rem;
+    white-space: nowrap;
+  }
+  
+  .pick-description__price span {
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  
+  .pick-description__table {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    font-size: 1.4rem;
+  }
+  
+  .pick-description__table__col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-template-rows: auto;
+    padding: 0.9rem 0.5rem;
+    border-bottom: 2px solid #706f7b;
+    border-right: 2px solid #706f7b;
+    border-left: 2px solid #706f7b;
+  }
+  
+  .pick-description__table__col span:nth-child(1) {
+    border-right: 2px solid #706f7b;
+  }
+  .cta-btn {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: #ff4d30;
+    padding: 1rem 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.4rem;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 0 #efe9e9;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e9381d;
+  }
+  
+  .box-cars {
+    gap: 11rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 1200px) {
+    .box-cars {
+      gap: 2rem;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .box-cars {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+    }
+  }
+  
+  .colored-button {
+    background-color: #ff4d30 !important;
+    color: white;
+  }
+  
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgba(0, 0, 0, 0.2588235294);
+    border-bottom-color: #ff3d00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    right: 78%;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 1535px) {
+    .pick-car {
+      margin-left: 10%;
+    }
+  }
+

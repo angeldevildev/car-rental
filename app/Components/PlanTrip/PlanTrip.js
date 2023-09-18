@@ -17,7 +17,7 @@ function PlanTrip() {
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
-                <Image src={SelectCar} alt="icon_img" />
+                <Image src={SelectCar} alt="icon_img" loading="lazy" />
                 <h3>Select Car</h3>
                 <p>
                   We offer a big range of vehicles for all your driving needs.
@@ -26,7 +26,7 @@ function PlanTrip() {
               </div>
 
               <div className="plan-container__boxes__box">
-                <Image src={Contact} alt="icon_img" />
+                <Image src={Contact} alt="icon_img" loading="lazy" />
                 <h3>Contact Operator</h3>
                 <p>
                   Our knowledgeable and friendly operators are always ready to
@@ -35,7 +35,7 @@ function PlanTrip() {
               </div>
 
               <div className="plan-container__boxes__box">
-                <Image src={Drive} alt="icon_img" />
+                <Image src={Drive} alt="icon_img" loading="lazy" />
                 <h3>{`Let's Drive`}</h3>
                 <p>
                   {`
