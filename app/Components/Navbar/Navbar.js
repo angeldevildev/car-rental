@@ -5,6 +5,10 @@ import { IconMenu2, IconX } from "@tabler/icons-react";
 import "./Navbar.css";
 import logo from './logo.png'
 import Image from 'next/image';
+import dynamic from "next/dynamic";
+// import MobileNavbar from './MobileNavbar/MobileNavbar'
+
+const MobileNavbar = dynamic(()=>import('./MobileNavbar/MobileNavbar'))
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -21,38 +25,7 @@ function Navbar() {
           <div onClick={openNav} className="mobile-navbar__close">
             <IconX width={30} height={30} />
           </div>
-          <ul className="mobile-navbar__links">
-            <li>
-              <a onClick={openNav} href="/">
-                Home
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="/">
-                About
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="/">
-                Models
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="/">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="/">
-                Our Team
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="/">
-                Contact
-              </a>
-            </li>
-          </ul>
+          <MobileNavbar />
         </div>
 
         {/* desktop */}

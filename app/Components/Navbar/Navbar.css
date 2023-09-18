@@ -55,7 +55,7 @@
   *::-webkit-scrollbar-thumb:active {
     background-color: #ff2525;
   }
-  
+
   .navbar {
     max-width: 133rem;
     width: 100%;
@@ -71,7 +71,6 @@
     background-color: transparent;
     z-index: 99999;
     margin: 0 auto;
-    
   }
   
   .navbar__img {
@@ -153,6 +152,9 @@
   .navbar__buttons a {
     text-decoration: none;
   }
+
+  
+  
   
   .mobile-hamb {
     font-size: 2.8rem;
@@ -199,25 +201,6 @@
     color: #ff4d30;
   }
   
-  .mobile-navbar__links {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-size: 2.3rem;
-    gap: 3rem;
-    text-align: center;
-  }
-  
-  .mobile-navbar__links li a {
-    text-decoration: none;
-    color: #010103;
-    font-weight: 500;
-    transition: all 0.3s;
-  }
-  
-  .mobile-navbar__links li a:hover {
-    color: #ff4d30;
-  }
   
   .open-nav {
     left: 0;

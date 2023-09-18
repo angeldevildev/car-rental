@@ -1,0 +1,19 @@
+.mobile-navbar__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 2.3rem;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .mobile-navbar__links li a {
+    text-decoration: none;
+    color: #010103;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .mobile-navbar__links li a:hover {
+    color: #ff4d30;
+  }
