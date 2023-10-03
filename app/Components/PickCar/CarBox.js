@@ -5,6 +5,7 @@ import React from "react";
 import Image from "next/image";
 import { CAR_IMAGES } from "./CarData";
 import './CarBox.css';
+import { ScrollReveal } from "reveal-on-scroll-react"
 
 
 function CarBox({ data, carID }) {
@@ -18,7 +19,7 @@ function CarBox({ data, carID }) {
 
 
   return (
-    <>
+    <ScrollReveal.div>
       {data[carID].map((car, id) => (
         <div key={id} className="box-cars">
           {/* car */}
@@ -80,7 +81,7 @@ function CarBox({ data, carID }) {
           </div>
         </div>
       ))}
-    </>
+    </ScrollReveal.div>
   );
 }
 

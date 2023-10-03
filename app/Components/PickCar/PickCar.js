@@ -19,7 +19,7 @@ function PickCar() {
 
   return (
     <>
-      <section className="pick-section">
+      <section className="pick-section" id="pick__section">
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
