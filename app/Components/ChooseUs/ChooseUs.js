@@ -8,13 +8,12 @@ import Box1 from "./icon1-1.svg";
 import Box2 from "./icon2-1.svg";
 import Box3 from "./icon3-1.svg";
 import Image from "next/image";
-import { ScrollReveal } from "reveal-on-scroll-react"
 
 
 function ChooseUs() {
   return (
     <>
-      <ScrollReveal.div className="choose-section">
+      <div className="choose-section">
         <div className="container">
           <div className="choose-container">
             <Image
@@ -80,7 +79,7 @@ function ChooseUs() {
             </div>
           </div>
         </div>
-      </ScrollReveal.div>
+      </div>
     </>
   );
 }
