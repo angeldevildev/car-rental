@@ -1,0 +1,119 @@
+.faq-section {
+    background-image: url("/src/images/faq/car.png");
+    padding: 10rem 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .faq-content {
+    display: flex;
+    flex-direction: column;
+    color: #010103;
+  }
+  
+  .faq-content__title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80rem;
+    line-height: 1.5;
+  }
+  
+  .faq-content__title h5 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+  
+  .faq-content__title h2 {
+    font-size: 4.2rem;
+    margin-bottom: 1.7rem;
+    font-weight: 700;
+  }
+  
+  .faq-content__title p {
+    font-size: 1.6rem;
+    color: #706f7b;
+  }
+  
+  .all-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+  }
+  
+  .faq-box {
+    display: flex;
+    flex-direction: column;
+    color: #010103;
+    background-color: white;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 80rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 850px) {
+    .faq-box {
+      width: 100%;
+    }
+  }
+  
+  .faq-box__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    padding: 1.8rem 4.5rem;
+    transition: 0.15s ease;
+    
+  }
+
+  /* Aggiungi questa classe per lo stile di sfondo attivo */
+.active-background {
+    background-color: #ff4d30;
+    color: #fff;
+  }
+  
+  
+  .faq-box__question p {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .faq-box__question i {
+    font-size: 2rem;
+  }
+  
+  .faq-box__answer {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    color: #706f7b;
+    line-height: 1.7;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease;
+    padding: 0 4.5rem;
+  }
+  
+  .active-answer {
+    max-height: 20rem;
+    padding: 2.8rem 4.5rem;
+    transition: 0.4s ease;
+  }
+  
+  @media (max-width: 550px) {
+    .active-answer {
+      max-height: 30rem;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .active-answer {
+      max-height: 55rem;
+    }
+  }
