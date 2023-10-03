@@ -48,28 +48,23 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className="about-link" href="/">
+              <a className="about-link" href="#about">
                 About 
               </a>
             </li>
             <li>
-              <a className="models-link" href="/">
+              <a className="models-link" href="#pick__section">
                 Vehicle Models
               </a>
             </li>
             <li>
-              <a className="testi-link" href="/">
+              <a className="testi-link" href="#testimonials">
                 Testimonials
               </a>
             </li>
             <li>
-              <a className="team-link" href="/">
-                Our Team
-              </a>
-            </li>
-            <li>
-              <a className="contact-link" href="/">
-                Contact
+              <a className="team-link" href="#download">
+                Download
               </a>
             </li>
           </ul>

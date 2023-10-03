@@ -34,13 +34,8 @@ function MobileNavbar() {
               </a>
             </li>
             <li>
-              <a onClick={openNav} href="/">
-                Our Team
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="/">
-                Contact
+              <a onClick={openNav} href="#download">
+                Download
               </a>
             </li>
           </ul>

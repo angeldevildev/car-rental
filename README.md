@@ -46,7 +46,6 @@ Our website was created using various technologies, including:
 - **HTML & CSS**: We used HTML for the site's structure and CSS for styling and presentation.
 - **JavaScript**: It was used to add interactivity and dynamic functionality to the site.
 - **Git**: We used Git as the version control system for managing our project's source code.
-- **GitHub**: We hosted our source code on GitHub for collaboration and project management.
 
 Thank you for choosing our car rental website. We hope you have an exceptional experience while exploring it, and we aim to meet all your car rental needs. Safe travels! 🚀
 
