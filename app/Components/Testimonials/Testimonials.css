@@ -1,0 +1,123 @@
+.testimonials-section {
+    background-color: #f8f8f8;
+    padding: 10rem 0;
+    color: #010103;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .testimonials-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .testimonials-content__title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70rem;
+    margin-bottom: 5rem;
+  }
+  
+  .testimonials-content__title h4 {
+    font-size: 2.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .testimonials-content__title h2 {
+    font-size: 4.2rem;
+    margin-bottom: 1.4rem;
+    font-weight: 800;
+  }
+  
+  .testimonials-content__title p {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    color: #706f7b;
+    line-height: 1.4;
+  }
+  
+  .all-testimonials {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  
+  @media (max-width: 1000px) {
+    .all-testimonials {
+      padding: 0;
+    }
+  }
+  
+  .all-testimonials__box {
+    background-color: white;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
+    width: 54rem;
+    padding: 5.5rem;
+    position: relative;
+  }
+  
+  @media (max-width: 1000px) {
+    .all-testimonials__box {
+      padding: 5rem 3rem;
+    }
+  }
+  
+  .all-testimonials__box p {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  
+  .all-testimonials__box__name {
+    display: flex;
+  }
+  
+  .all-testimonials__box__name__profile {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .all-testimonials__box__name__profile img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+  }
+  
+  .all-testimonials__box__name__profile h4 {
+    font-size: 1.8rem;
+  }
+  
+  .all-testimonials__box__name__profile p {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  
+  .quotes-icon {
+    font-size: 6.2rem;
+    color: #ff4d30;
+    position: absolute;
+    bottom: 33px;
+    right: 60px;
+  }
+  
+  @media (max-width: 470px) {
+    .quotes-icon {
+      display: none;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .box-2 {
+        display: none;
+    }
+  }
