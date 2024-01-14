@@ -34,10 +34,7 @@ function BookCar() {
   const [city, setCity] = useState("");
   const [zipcode, setZipCode] = useState("");
 
-  const [ageError, setAgeError] = useState(""); // Nuovo stato per l'errore di età
-
-  // Altri handler rimangono invariati
-
+  const [ageError, setAgeError] = useState(""); 
   const handleAge = (e) => {
     const newAge = e.target.value;
     setAge(newAge);
@@ -329,7 +326,6 @@ function BookCar() {
                 </div>
               </span>
             </div>
-
             <div className="booking-modal__car-info__dates">
               <span>
                 <IconMapPinFilled />
@@ -342,7 +338,6 @@ function BookCar() {
                 </div>
               </span>
             </div>
-
             <div className="booking-modal__car-info__dates">
               <span>
                 <IconMapPinFilled />
@@ -440,7 +435,6 @@ function BookCar() {
                 ></input>
                 <p className="error-modal">This field is required.</p>
               </span>
-
               <span>
                 <label>
                   Address <b>*</b>
@@ -468,7 +462,6 @@ function BookCar() {
                 ></input>
                 <p className="error-modal">This field is required.</p>
               </span>
-
               <span>
                 <label>
                   Zip Code <b>*</b>
@@ -487,7 +480,6 @@ function BookCar() {
               <input type="checkbox"></input>
               <p>Please send me latest news and updates</p>
             </span>
-
             <div className="reserve-button">
               <button onClick={confirmBooking}>Reserve Now</button>
             </div>
