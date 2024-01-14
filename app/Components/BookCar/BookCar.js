@@ -34,6 +34,35 @@ function BookCar() {
   const [city, setCity] = useState("");
   const [zipcode, setZipCode] = useState("");
 
+  const [ageError, setAgeError] = useState(""); // Nuovo stato per l'errore di età
+
+  // Altri handler rimangono invariati
+
+  const handleAge = (e) => {
+    const newAge = e.target.value;
+    setAge(newAge);
+
+ 
+    if (newAge && newAge < 18) {
+      setAgeError("The age is too low");
+    } else {
+      setAgeError("");
+    }
+  };
+
+  const confirmBooking = (e) => {
+    e.preventDefault();
+    if (ageError) {
+      alert("Please correct the errors before confirming your booking.");
+      return;
+    }
+
+    setModal(!modal);
+    const doneMsg = document.querySelector(".booking-done");
+    doneMsg.style.display = "flex";
+  };
+
+
   // taking value of modal inputs
   const handleName = (e) => {
     setName(e.target.value);
@@ -46,10 +75,11 @@ function BookCar() {
   const handlePhone = (e) => {
     setPhone(e.target.value);
   };
-
+/*
   const handleAge = (e) => {
     setAge(e.target.value);
   };
+  */
 
   const handleEmail = (e) => {
     setEmail(e.target.value);
@@ -96,13 +126,14 @@ function BookCar() {
     }
   }, [modal]);
 
-  // confirm modal booking
+  /*
   const confirmBooking = (e) => {
     e.preventDefault();
     setModal(!modal);
     const doneMsg = document.querySelector(".booking-done");
     doneMsg.style.display = "flex";
   };
+  */
 
   // taking value of booking inputs
   const handleCar = (e) => {
@@ -382,7 +413,6 @@ function BookCar() {
                 ></input>
                 <p className="error-modal">This field is required.</p>
               </span>
-
               <span>
                 <label>
                   Age <b>*</b>
@@ -393,10 +423,10 @@ function BookCar() {
                   type="number"
                   placeholder="18"
                 ></input>
+                {ageError && <p className="error-modal" style={{ fontSize: 16, color: 'red' }}>{ageError}</p>}
                 <p className="error-modal ">This field is required.</p>
               </span>
             </div>
-
             <div className="info-form__1col">
               <span>
                 <label>
